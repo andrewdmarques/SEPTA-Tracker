@@ -13,7 +13,6 @@ import csv
 # Prepare the environment
 ##############################################################
 # Define the directory and file paths
-# Define the directory and file paths
 dir_database = "Database"
 dir_php = dir_database + "/Data_PHP"
 dir_csv = dir_database + "/Data_CSV"
