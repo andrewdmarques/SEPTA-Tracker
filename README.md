@@ -15,11 +15,13 @@ Make sure to have Python 3.x installed. To run the script, use the following ste
     ./incompleteXXX.py
     ```
 
-Script "a" pulls the PHP data from SEPTA's Regional Rail API: https://www3.septa.org/api/TrainView/index.php
-Script "b" reformats and concatinates the individual API pulls into a file "toi.csv" which stands for Train of Interest
-Script "c" can train the model (if it is to be updated) or can make predictions on already trained models.
+Script `a.py` pulls the PHP data from SEPTA's Regional Rail API: https://www3.septa.org/api/TrainView/index.php
 
-File config.csv contains the information required to specify the "poi" or Point of Interest (which is the latitude and longitude of the train station) in addition to the desired train heading and other parameters. 
+Script `b.py` reformats and concatinates the individual API pulls into a file "toi.csv" which stands for Train of Interest
+
+Script `c.py` can train the model (if it is to be updated) or can make predictions on already trained models.
+
+`config.csv` contains the information required to specify the "poi" or Point of Interest (which is the latitude and longitude of the train station) in addition to the desired train heading and other parameters. 
 
 ## Output
 
