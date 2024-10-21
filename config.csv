@@ -1,0 +1,11 @@
+variable,description,value
+dir_database,The exact location of the database,/media/andrewdmarques/Data01/Personal/Database
+dir_csv,The location for the CSV files from the raw pulled data.,/media/andrewdmarques/Data01/Personal/Database/Data_CSV
+toi_file,The csv file that summarizes the grouped data for trains of interest.,/media/andrewdmarques/Data01/Personal/Database/toi.csv
+train_line,The train line of interest to subset the data. This can be a fragment of the whole train name i.e. media will subset for media/wawa,media
+poi_lat,The latitude of the point of interest which is the train station location.,39.907821
+poi_lon,The longitude of the point of interest which is the train station location.,-75.328403
+poi_train_heading,The cardinal direction for desired train heading. Accepts N S E or W. This is the primary direction of the direction of desired travel from the departing train station.,E
+dir_php,The location for the PHP files  that will be downloaded via API.,/media/andrewdmarques/Data01/Personal/Database/Data_PHP
+url_data,The API URL from which data is pulled.,https://www3.septa.org/api/TrainView/index.php
+scan_count,This value represents how many times per minute it should scan for the current state of the trains.,2
