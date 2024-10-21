@@ -10,16 +10,20 @@ Make sure to have Python 3.x installed. To run the script, use the following ste
     git clone https://github.com/andrewdmarques/SEPTA-Tracker.git
     ```
 
-2. Run the script:
+2. Run the scripts (part a, b, and c):
     ```bash
     ./incompleteXXX.py
     ```
 
-Make sure the script is executable by using `chmod +x ` if necessary.
+Script "a" pulls the PHP data from SEPTA's Regional Rail API: https://www3.septa.org/api/TrainView/index.php
+Script "b" reformats and concatinates the individual API pulls into a file "toi.csv" which stands for Train of Interest
+Script "c" can train the model (if it is to be updated) or can make predictions on already trained models.
+
+File config.csv contains the information required to specify the "poi" or Point of Interest (which is the latitude and longitude of the train station) in addition to the desired train heading and other parameters. 
 
 ## Output
 
-The script generates a CSV file named `next-train.csv` that contains the most recent train prediction data.
+The script generates a CSV file named `next-train.csv` that contains the most recent train prediction data and `predictions.csv` which are a list of all the predictions that have been made.
 
 ## Predictions
 
