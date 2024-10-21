@@ -26,7 +26,7 @@ The script generates a CSV file named `next-train.csv` that contains the most re
 
 Here are some sample images illustrating the output:
 
-![Sample Image 1](image1.png)
+![Sample Image 0](image0.png)
 
 ![Sample Image 2](image2.png)
 
