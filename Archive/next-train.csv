@@ -1,0 +1,2 @@
+date,time,train_id,lat,lon,predicted,predicted_arrival_time
+2024-10-17,14:14:30,2024-10-17_3222,39.907910166667,-75.411105166667,13.03,14:27:31
