@@ -29,11 +29,12 @@ A decision tree yielded the highest accuracy with the least amount of computer t
 
 The image below shows the error (the difference between the predicted and actual time) for trains that would arrive 14-17 minutes. Of the parameter space tested, I estimated that the fewest paremeters with highest accuracy was the current train's distance to station, plus the previous 3 logged distances to station. This resulted in 2 minutes worth of data logging (trains logged every 30 seconds from the SEPTA API).
 
-![Sample Image 4](image4.png)
+![Sample Image 6](image6.png)
+
 
 Previous models were less optimized. Below shows the same conditions with different parameters used for predictions. This might include data such as express vs local train, train and it's last 2 logged position, train speed, train number, etc. 
 
-![Sample Image 6](image6.png)
+![Sample Image 4](image4.png)
 
 The predicted results below are shown in the colors below. The x-axis is the longitude and the y-axis is the latitude. 
 
