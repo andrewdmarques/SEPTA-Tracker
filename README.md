@@ -10,7 +10,16 @@ Make sure to have Python 3.x installed. To run the script, use the following ste
     git clone https://github.com/andrewdmarques/SEPTA-Tracker.git
     ```
 
-2. Run the scripts (part a, b, and c):
+2. Install the necessary libraries:
+   ```bash
+sudo apt-get install python3-pandas
+   ```
+
+3. Update the config file to have the appropriate directory where the data should be stored and processed.
+
+4. Update the scripts so that they point to the correct config file. Tip: it is best to use absolute paths when indicating files and directories.
+
+5. Run the scripts (part a, b, and c):
     ```bash
     ./incompleteXXX.py
     ```
