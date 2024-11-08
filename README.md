@@ -21,7 +21,9 @@ sudo apt-get install python3-pandas
 
 5. Run the scripts (part a, b, and c):
     ```bash
+
     ./incompleteXXX.py
+
     ```
 
 Script `a_downloader.py` pulls the PHP data from SEPTA's Regional Rail API: https://www3.septa.org/api/TrainView/index.php
